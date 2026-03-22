@@ -3,7 +3,7 @@
 - Collect open street-level images (any area)
 - Preprocess + organize into a clean dataset
 - Label a small pilot set
-- Train/compare 2–3 YOLO baselines and pick the bes
+- Train/compare 2–3 YOLO baselines and pick the best
 
 ## Person 1 — Image Collection (Open imagery → raw images + manifest)
 
