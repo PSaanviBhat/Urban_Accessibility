@@ -1,36 +1,24 @@
-\# Urban Accessibility
+# Urban Accessibility
 
-
-
-\## Description
+## Description
 
 A group project focused on analyzing and improving accessibility in urban environments using data and technology.
 
+## Features
 
+- Accessibility data collection
+- Visualization of accessibility metrics
+- Accessibility analysis tools
 
-\## Features
-
-\- Accessibility data collection
-
-\- Visualization of accessibility metrics
-
-\- Accessibility analysis tools
-
-
-
-\## Installation
+## Installation
 
 Steps will be added later.
 
-
-
-\## Usage
+## Usage
 
 Instructions will be added later.
 
-
-
-\## Project Structure
+## Project Structure
 
 src/ - main application code  
 
@@ -40,17 +28,10 @@ docs/ - documentation
 
 scripts/ - utility scripts  
 
-
-
-\## Contributing
+## Contributing
 
 See CONTRIBUTING.md
 
-
-
-\## License
+## License
 
 MIT
-
-
-
