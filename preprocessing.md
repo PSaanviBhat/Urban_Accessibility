@@ -45,7 +45,6 @@
 - [ ] Set up tool project (CVAT/Label Studio/etc.) with 3 classes.
 - [ ] Import pilot subset.
 - [ ] Label **200–400 images**.
-- [ ] Track counts per class; if curb/no ramp is too rare, request more intersection images.
 - [ ] Fix systematic issues.
 - [ ] Export YOLO labels.
 - [ ] Validate:
