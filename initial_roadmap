@@ -1,0 +1,42 @@
+[Pick 1–2 Bangalore areas]
+          |
+          v
+[Define classes + labeling rules]
+(stairs, curb/no ramp, broken pavements)
+          |
+          v
+[Collect open street-level images]
+(Street view images/Mapillary / other OSS imagery)
+          |
+          v
+[Annotate pilot dataset (200–300)]
+          |
+          v
+[Train baseline YOLO]
+          |
+          v
+[Evaluate + error analysis]
+          |
+          +----------------------------+
+          |                            |
+          v                            v
+[Collect hard examples]         [Adjust labeling rules]
+(label more crossings,            (reduce ambiguity)
+ shadows, occlusions)
+          |                            |
+          +------------+---------------+
+                       |
+                       v
+                [Retrain YOLO v2]
+                       |
+                       v
+            [Batch inference on area]
+                       |
+                       v
+          [Store detections in PostGIS]
+                       |
+                       v
+            [Map UI: view + filters]
+                       |
+                       v
+                [Prototype complete]
