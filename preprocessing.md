@@ -5,7 +5,7 @@
 - Label a small pilot set
 - Train/compare 2–3 YOLO baselines and pick the best
 
-## Person 1 — Image Collection (Open imagery → raw images + manifest)
+## Person 1: Image Collection (Open imagery → raw images + manifest)
 
 - [ ] Pick 2 small areas with good street-level imagery coverage.
 - [ ] Save boundaries (bbox/polygon) + target counts (500–2,000 images/area).
@@ -14,7 +14,7 @@
 - [ ] Apply sampling limits (reduce redundancy): ~1 image per 10–20m when possible.
 - [ ] Bias collection near intersections/crossings (needed for curb/no ramp).
 
-## Person 2 — Preprocessing + Dataset Setup (clean → organize → split)
+## Person 2: Preprocessing + Dataset Setup (clean → organize → split)
 
 - [ ] Create canonical dataset structure: `dataset_v0/images/all/`, `dataset_v0/metadata/`, `dataset_v0/splits/`.
 - [ ] Decide storage: cleaned-only vs cleaned+resized (prefer cleaned+resized if training speed matters).
@@ -35,7 +35,7 @@
   - [ ] lighting variety
 - [ ] Produce `dataset_v0/metadata/pilot_subset.csv` + prepared folder for labeling.
 
-## Person 3 — Annotation (label rules → pilot labels + QA)
+## Person 3: Annotation (label rules → pilot labels + QA)
 
 - [ ] Write `docs/labeling_guide_v0.1.md` with rules for:
   - [ ] **stairs** (tight box; rule for single-step)
@@ -53,7 +53,7 @@
   - [ ] class IDs match `class_map.json`
   - [ ] bboxes valid and normalized
 
-## Person 4 — YOLO Baselines (protocol → train → compare → recommend)
+## Person 4: YOLO Baselines (protocol → train → compare → recommend)
 
 - [ ] Create `experiments/exp_protocol_v0.md` fixing:
   - [ ] image size (e.g., 640 or 768)
